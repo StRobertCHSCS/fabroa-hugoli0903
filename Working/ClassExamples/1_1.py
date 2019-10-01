@@ -12,8 +12,8 @@ print(3.14)
 print(5)
 
 print("Commas are used to separate values from each other")
-print("There are the ages of the three children: ",11 ,6 ,3)
+print("There are the ages of the three children: ", 11, 6, 3)
 print(3.14,"is and will always be my favourite pi")
 
 colour = "purple and yellow"
-print("I've always believed that",colour, "matches very well together")
+print("I've always believed that", colour, "matched very well together")
