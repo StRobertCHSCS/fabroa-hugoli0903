@@ -2,7 +2,7 @@
 age = int(input("Enter your age: "))
 if age >= 18:
     print("You are old enough to vote in Canada")
-if age <= 18:
+if age < 18:
     print("You are not old enough to vote in Canada")
 #Instead of constantly using if statements, we can use else statements
 
