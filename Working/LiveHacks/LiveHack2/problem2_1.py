@@ -25,8 +25,16 @@ if a == b and a == c and b == c:
     print("forms an Equilateral triangle")
 
 # calculate the angles
-if a == b or and a + b !=c :
+if a == b and a + b != c:
     # output the type of triangle
+    print("A triangle with angles" , a ,"," , b , ", and" , c , end= " ")
+    print("forms an Isoceles triangle")
+
+elif a == c and a + c != b:
+    print("A triangle with angles" , a ,"," , b , ", and" , c , end= " ")
+    print("forms an Isoceles triangle")
+
+elif b == c and b + c != a:
     print("A triangle with angles" , a ,"," , b , ", and" , c , end= " ")
     print("forms an Isoceles triangle")
 
