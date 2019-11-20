@@ -7,7 +7,7 @@ if age < 18:
 #Instead of constantly using if statements, we can use else statements
 
 print("Did you buy the game yet?")
-bought_game = True
+bought_game = False
 if bought_game:
     print("Yeah and I'm enjoying it so far")
 else:
